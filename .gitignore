@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================================
+# AI CV Scanner - Project Specific
+# ============================================================
+
+# User uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Generated CVs and outputs
+outputs/*
+!outputs/.gitkeep
+
+# Private / local datasets
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Local secrets
+*.env
+secrets.toml
+
+# Temporary tunnel / server files
+cloudflared*
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local IDE files
+.vscode/
+.idea/
