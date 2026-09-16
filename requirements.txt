@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+sentence-transformers
+rapidfuzz
+pypdf
+python-docx
+pandas
+numpy
+openpyxl
+xlrd
